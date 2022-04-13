@@ -35,7 +35,6 @@ class MenuViewController: UIViewController {
         view.addSubview(tableView)
         tableView.frame = view.frame
         tableView.isMultipleTouchEnabled = false
-//        tableView.selection = .singleSelection
         
         tableView.separatorStyle = .none
         tableView.rowHeight = 60
